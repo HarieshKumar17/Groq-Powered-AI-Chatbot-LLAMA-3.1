@@ -68,22 +68,8 @@ with gr.Blocks() as demo:
 **Prerequisites**
 
 ```bash
-pip install -r requirements.txt
-```
-
-**Requirements.txt**
-
-```
-streamlit
-python-dotenv
-groq
-werkzeug
-requests
-python-docx 
-reportlab
-openpyxl
-```
-    
+pip install groq gradio
+```    
 
 ## Usage Guide
 
@@ -118,10 +104,10 @@ chat_completion = client.chat.completions.create(
 
 ### Running the Chatbot
 
-Run the Streamlit application with the following command:
+Run the Gradio application with the following command:
 
-```
-streamlit run app.py
+```python
+python app.py
 ```
 
 ## Contributing
